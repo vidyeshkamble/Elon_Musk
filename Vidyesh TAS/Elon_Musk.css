@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+  }
+  
+.parallax {
+    /* Full height */
+    height: 90%; 
+  
+    /* Create the parallax scrolling effect */ 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page{
+    padding: 10px 10%;
+    background-color:white;
+    font-size:36px;
+}
