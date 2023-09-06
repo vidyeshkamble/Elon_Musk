@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parallax {
+    height: 90%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body{
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.imgg h1{
+    position: absolute;
+    color: white;
+    font-size: 400% ;
+    font-family: 'Maven Pro', sans-serif;
+    top: 40%;
+    left: 20%;
+}
+/* Head */
+
+.heading{
+    position: absolute;
+    top: 0;
+    right:0 ;
+    margin: 30px;
+}
+.heading a{
+    padding: 40px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+/* Page */
+
+.page{
+    height: 1000px;
+}
+
+.head{
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 90px;
+}
+
+.info{
+    padding: 0px 20%;
+    font-family:'Jura', sans-serif;
+}
+.info h2{
+    font-size: 36px;
+}
+.info li{
+    padding-top: 5px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.info p{
+    padding-top: 5px;
+    font-size: 20px;
+    margin-left: 40px;
+}

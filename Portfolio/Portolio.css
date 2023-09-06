@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:url('https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2px);
+    background-size: cover;
+    background-position: center;
+}
+/* left side Page */
+.in h1{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 300%;
+    padding: 20px 30px;
+}
+.side{
+    width: 20%;
+    background-color: rgb(8, 8, 41);
+    height: 100vh;
+}
+.pic{
+    padding-top: 30px;
+}
+.pic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border-radius: 50%; 
+}
+.pic h2{
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Maven Pro', sans-serif;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links a{
+    padding: 15px;
+    border-radius: 50%; 
+    background-color: rgb(27, 27, 66);
+    color: white;
+    margin: 0px 10px;
+}
+
+.contect{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 30px;
+    bottom: 20px;
+}
+.contect i{
+    padding: 10px;
+}
+
+/* Main Page */
+.pig{
+    position: absolute;
+    top:50% ;  
+    left:30% ;
+}
+.pig h1{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+.pig p{
+    color: white;
+    font-size: 2rem;
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.head{
+    position: absolute;
+    top: 0;
+    right:0 ;
+    margin: 30px;
+}
+.head a{
+    padding: 40px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/* ABOUT */
+
