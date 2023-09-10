@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+/* Titel of the website */
+
+.contaner{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.contaner img{
+    width: 1.5rem;
+    height: 1.3rem;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+ul{
+    color: rgba(255, 255, 255, 0.63);
+    display:flex;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.info-top i{
+    color: white;
+    margin-top: 13px;
+    margin-left: 50px;
+}
+
+/* Titel 2 of the website */
+
+.contaner-title{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.title{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.title-info{
+    margin-right: 30rem;
+    font-size: 40px;
+}
+
+.contaner-title button{
+    background-color: #0071E3;
+    color: white;
+    width: 60px;
+    border-radius: 40px;
+    height: 30px;
+    border: 0px;
+}
+
+/* Main Body  */
+
+.dis-title {
+    text-align: center;
+    background-color: #161617;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    height: 150px;
+    align-items: center;
+    border-top: rgba(255, 255, 255, 0.363) solid 0.1px;
+}
+
+/* body image */
+
+.body-pic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-title{
+    display: flex;
+    justify-content: center;
+}
+
+.body-title h1{
+    margin-top: 3rem;
+    margin-right: 35rem;
+    color: rgba(255, 255, 255, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+}
+
+.scroll{
+    margin-top: 3rem;
+}
+
+.scroll input{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+/* Buy infomation */
+
+.buy-info{
+    width: 100%;
+    background-color: #161617;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.buy-info button{
+    background-color: #0071E3;
+    color: white;
+    width: 65px;
+    border-radius: 40px;
+    height: 40px;
+    border: 0px;
+    font-size: 1.1rem;
+}
+
+.buy-info h1{
+    background-color: #161617;
+    color: rgba(255, 255, 255, 0.829);
+    margin-top: 80px;
+}
+
+.buy-info p{
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.521);
+    background-color: #161617;
+}
+
+/* bottom-info */
+
+.content{
+    background-color: #161617;
+    height: 2300px;
+    width: 100%;
+}
+
+.bottom-info{
+    display: flex;
+    justify-content: center;
+    background-color: #161617;
+}
+
+.bottom-first{
+    border-radius: 30px;
+    margin: 0px 40px;
+    padding: 0px 150px;
+    height: auto;
+}
+
+.bottom-first h1{
+    color: rgba(255, 255, 255, 0.842);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px 100px;
+    font-size: 4rem;
+}
+
+.bottom-first p{
+    color: rgba(255, 255, 255, 0.473);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 70px;
+    margin-left: 100px;
+}
+
+.bottom-first b{
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.bottom-first img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* box images */
+
+.first{
+    border-radius: 30px;
+    margin: 0px 40px;
+    padding: 0px 150px;
+    height: 800px;
+}
+.info-img h1{
+    color: rgb(214, 104, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+}
+
+.first img{
+    margin-top: 80px;
+}
+
+.info-img{
+    margin-left: -40px;
+}
+
+.info-img{
+    background-color: #161617;
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}
+
+.secound{
+    border-radius: 30px;
+    padding: 10px;
+    height: 780px;
+}
+
+.s-fir{
+    margin-top: -50px;
+}
+
+.s-fir h1{
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.iphone-info img{
+    width: 100%;   
+}
+
+/* popup */
+
+
+.popup{
+    width: 30%;
+    height: 630px;
+    background-color: black;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    border-radius: 30px;
+    box-shadow: 5px 10px black;
+    text-align: center;
+    box-shadow: 10px 1px 50px black;
+}
+
+
+.popup img{
+    width: 500px;
+    height: auto;
+    margin-top: -50%;
+    background: transparent;
+    margin-left: 80px;
+}
+
+.popup h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.popup button{
+    background-color: #0071E3;
+    color: white;
+    width: 65px;
+    border-radius: 40px;
+    height: 40px;
+    border: 0px;
+    font-size: 1.1rem;
+}
+
+.body-picp2 img{
+    width: 100%;
+    margin-top: 50px;
+    filter: blur(10px);
+}
+
+.popup input{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.459);
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #161617;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.popup p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
